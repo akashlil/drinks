@@ -1,0 +1,86 @@
+.heartbeat-icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.border-hr {
+    height: 1px;
+    width: 100%;
+    background-color: #cfa45a;
+}
+
+.bannend-bg {
+    background-color: #e9dcc6;
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 800px;
+
+        .about-title {
+            font-weight: 400;
+            // border-bottom: 1px solid #cfa45a;
+            font-style: italic;
+        }
+    }
+}
+
+.bg-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.bg-blue {
+    background-color: #2d5297;
+}
+
+.butterfly-content {
+    background-color: #e9dcc6;
+    padding: 50px;
+
+    .title {
+        font-weight: 400;
+    }
+
+    .desp {
+        padding-right: 150px;
+    }
+}
+
+.product-card {
+    background-color: #f7f7f6;
+    height: 100%;
+
+    .title {
+        text-align: center;
+        font-size: 22px;
+        padding: 10px;
+    }
+}
+
+.product-content {
+    text-align: center;
+    margin-bottom: 60px;
+
+    .title {
+        font-weight: 400;
+        color: $white;
+    }
+
+    .desp {
+        font-size: 16px;
+        font-style: italic;
+        color: $white;
+    }
+}
