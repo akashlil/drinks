@@ -98,6 +98,27 @@ img {
 }
 
 
+.buy-now {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0px;
+
+    .buy-now-btn {
+        padding: 30px 60px;
+        font-size: 42px;
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #fff;
+
+        &:hover {
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #000;
+        }
+    }
+}
+
 @media screen and (max-width: 991px) {
 
     .butterfly-content {

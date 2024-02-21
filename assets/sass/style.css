@@ -126,7 +126,6 @@ button {
 a:hover {
   text-decoration: none;
   color: #f5ca74;
-  font-size: 22px;
   transition: all 0.3s ease;
 }
 
@@ -1190,6 +1189,25 @@ img {
 
 .bg-pink {
   background-color: #E07CAC;
+}
+
+.buy-now {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 0px;
+}
+.buy-now .buy-now-btn {
+  padding: 30px 60px;
+  font-size: 42px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.buy-now .buy-now-btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
 }
 
 @media screen and (max-width: 991px) {
