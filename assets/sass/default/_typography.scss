@@ -4,6 +4,7 @@
 
 // Google Fonts
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 html,
 body {
   color: var(--body-color);
@@ -113,17 +114,20 @@ button {
 
 a:hover {
   text-decoration: none;
-  color: $primary;
+  color: #f5ca74;
+  font-size: 22px;
   transition: all 0.3s ease;
 }
 
 table {
   width: 100%;
   margin-bottom: 25px;
+
   th {
     font-weight: 600;
     color: var(--body-color);
   }
+
   td,
   th {
     border-top: 1px solid $white;
@@ -133,6 +137,7 @@ table {
 
 dl {
   margin-bottom: 25px;
+
   dt {
     font-weight: 600;
   }
@@ -162,11 +167,14 @@ kbd {
     margin: 0 0 25px 0;
     padding-left: 20px;
     list-style: square outside none;
+
     &.cs_list_style_none {
       list-style: none;
       padding: 0px;
+
       li {
         margin-bottom: 10px;
+
         h3 {
           font-size: 22px;
         }
@@ -179,6 +187,7 @@ kbd {
   h3 {
     font-size: 32px;
   }
+
   h4 {
     font-size: 22px;
   }

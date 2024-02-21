@@ -84,3 +84,25 @@ img {
         color: $white;
     }
 }
+
+
+.firelli-img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.bg-pink {
+    background-color: #E07CAC;
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .butterfly-content {
+        .desp {
+            padding: 0;
+        }
+    }
+}

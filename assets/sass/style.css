@@ -125,7 +125,8 @@ button {
 
 a:hover {
   text-decoration: none;
-  color: #f0e6d2;
+  color: #f5ca74;
+  font-size: 22px;
   transition: all 0.3s ease;
 }
 
@@ -1180,6 +1181,22 @@ img {
   color: #fff;
 }
 
+.firelli-img {
+  width: 250px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bg-pink {
+  background-color: #E07CAC;
+}
+
+@media screen and (max-width: 991px) {
+  .butterfly-content .desp {
+    padding: 0;
+  }
+}
 /*--------------------------------------------------------------
   6. Slider
 ----------------------------------------------------------------*/
@@ -1217,6 +1234,7 @@ img {
   position: absolute;
   height: 55px;
   width: 55px;
+  background-color: #000;
   border-radius: 50% 50% 50% 50%;
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
@@ -1243,6 +1261,7 @@ img {
   position: absolute;
   height: 55px;
   width: 55px;
+  background-color: #000;
   border-radius: 50% 50% 50% 50%;
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
@@ -1289,156 +1308,18 @@ img {
 }
 
 /* End slider hero 1 */
-/* Start slider testimonal */
-.ak-slider-testimonal {
-  overflow: hidden;
-  width: 100%;
-}
-.ak-slider-testimonal .swiper-slide {
-  width: 100%;
-}
-.ak-slider-testimonal .swiper-slide:not(.swiper-slide-active) {
-  opacity: 0 !important;
-}
-
-/* End slider testimonal */
-/*  Start Trusted Client  */
-.ak-trusted-client-slider {
-  overflow: hidden;
-  width: 100%;
-}
-.ak-trusted-client-slider .title {
-  text-align: center;
-  margin-bottom: 30px;
-}
-.ak-trusted-client-slider .swiper-wrapper {
-  align-items: center;
-}
-.ak-trusted-client-slider .swiper-wrapper .swiper-slide {
-  width: 14.4%;
-}
-
-/* End Trusted Client  */
-.team-single-page-slider {
-  height: 550px;
-  overflow: hidden;
-  width: 100%;
-}
-.team-single-page-slider .swiper-slide {
-  width: 75%;
-}
-.team-single-page-slider .slide-img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.team-single-page-slider .team-single-page-swiper-controll {
-  width: 79%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 11;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.team-single-page-slider .team-single-page-swiper-controll .button-style {
-  width: 75px;
-  height: 75px;
-  background-color: rgba(255, 255, 255, 0.2705882353);
-  border-radius: 50%;
-  position: relative;
-}
-.team-single-page-slider .team-single-page-swiper-controll .button-style svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@media screen and (max-width: 767px) {
-  .ak-trusted-client-slider .swiper-wrapper .swiper-slide {
-    width: 33.3%;
-  }
-  .team-single-page-slider {
-    height: 40vh;
-  }
-  .team-single-page-slider .swiper-slide {
-    width: 60%;
-  }
-  .team-single-page-slider .team-single-page-swiper-controll {
-    width: 72%;
-  }
-  .team-single-page-slider .team-single-page-swiper-controll .button-style {
-    width: 50px;
-    height: 50px;
-  }
-}
-/*start sticky-content */
-@media screen and (min-width: 991px) {
-  .sticky-content {
-    width: 100%;
-    position: relative;
-  }
-  .sticky-content .sidebar {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    max-width: inherit;
-    float: right;
-  }
-  .sticky-content .sidebar.fixed {
-    position: fixed;
-  }
-  .sticky-content .sidebar .service-card-style-2 {
-    width: 420px;
-  }
-  .sticky-content .sidebar.width-none {
-    width: 40% !important;
-  }
-  .sticky-content .content {
-    float: left;
-    width: calc(100% - 420px);
-    padding-right: 15px;
-  }
-  .sticky-content .content.style_2 {
-    float: left;
-    padding-right: 0px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .sticky-content .content.style_2 .service {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-}
-.sticky-content {
-  display: flex;
-  gap: 50px;
-  flex-direction: column-reverse;
-}
-.sticky-content .content.style_2 .service {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
 /*--------------------------------------------------------------
   11. Hero
 ----------------------------------------------------------------*/
 .ak-hero.ak-style1 {
-  min-height: 100vh;
+  min-height: 85vh;
   width: 100%;
   position: relative;
   overflow: hidden;
 }
 .ak-hero.ak-style1 .ak-hero-bg {
   position: absolute;
-  height: calc(100% + 100px);
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
@@ -1452,23 +1333,38 @@ img {
   display: flex;
   align-items: center;
   height: 100%;
-  margin-top: 8%;
-  max-width: 650px;
+  margin-top: 5%;
+  max-width: 700px;
 }
 .ak-hero.ak-style1 .hero-slider-info .hero-main-title {
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
 }
 .ak-hero.ak-style1 .hero-slider-info .hero-main-title-1 {
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
 }
 .ak-hero.ak-style1 .hero-slider-info .mini-title {
   max-width: 560px;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 27px;
-  color: #ffdb6e;
+  color: #000;
+}
+
+.hero-btn {
+  background-color: #000;
+  padding: 15px 20px;
+  color: #fff;
+  margin-top: 15px;
+  font-size: 22px;
+  transition: all 0.3s ease-in-out;
+}
+.hero-btn:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
 }
 
 @media screen and (max-width: 991px) {
