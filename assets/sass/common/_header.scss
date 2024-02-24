@@ -797,3 +797,10 @@
     stroke-linecap: round;
   }
 }
+
+.active:after {
+  content: "+";
+  background-color: #000;
+  color: #000;
+  font-size: 32px;
+}

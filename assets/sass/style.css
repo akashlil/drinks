@@ -1100,6 +1100,13 @@ kbd {
   stroke-linecap: round;
 }
 
+.active:after {
+  content: "+";
+  background-color: #000;
+  color: #000;
+  font-size: 32px;
+}
+
 .heartbeat-icon {
   width: 20px;
   height: 20px;
